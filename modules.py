@@ -27,14 +27,8 @@ class retina(object):
 
     def foveate(self, x, l):
         """
-        Extract `k` square patches of size `g`, centered
-        at location `l`. The initial patch is a square of
-        size `g`, and each subsequent patch is a square
-        whose side is `s` times the size of the previous
-        patch.
-
-        The `k` patches are finally resized to (g, g) and
-        concatenated into a tensor of shape (B, k, g, g, C).
+        Extract a  cube of size g x g x g, centered
+        at location l.
         """
         
         size = self.g
