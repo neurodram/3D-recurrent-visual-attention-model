@@ -1,3 +1,3 @@
 # 3D-recurrent-visual-attention-model
 
-pytorch class for NEURO-DRAM, as used for the work in https://arxiv.org/abs/1910.04721 which has been submitted for publication in NeuroImage
+pytorch class for NEURO-DRAM, as used for the work in https://arxiv.org/abs/1910.04721 
